@@ -1,0 +1,16 @@
+# Build Outputs
+bin/
+obj/
+
+#VS ode
+.VSCode
+
+# SQLite database files
+*.database
+*.db
+*db-shm
+*.db-wal
+
+# User-specific files
+*.User
+*.suo
