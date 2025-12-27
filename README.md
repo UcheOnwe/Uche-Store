@@ -1,25 +1,37 @@
-# Uche Store API
+# Uche Store (Backend API)
 
-ASP.NET Core Web API for an e-commerce platform.
+Uche Store is a backend REST API built with ASP.NET Core for an e-commerce-style application.  
+This project focuses on clean architecture, database design, and scalable backend development.
 
 ## Tech Stack
-- ASP.NET Core
+- ASP.NET Core Web API
 - Entity Framework Core
 - SQLite
-- RESTful API architecture
+- C#
+- RESTful API design
 
-## Current Features
-- Product entity
-- Database setup with EF Core migrations
-- SQLite persistence
+## Features
+- Product entity modeling
+- Database context using Entity Framework Core
+- Code-first migrations
+- Environment-based configuration
+- Modular project structure
 
-## Roadmap
+## Project Structure
+- `API/Controllers` – API endpoints
+- `API/Entities` – Domain models
+- `API/Data` – DbContext and migrations
+- `API/Program.cs` – Application configuration
+
+## Purpose
+This project serves as the backend foundation for a full e-commerce application.  
+It demonstrates backend fundamentals including data modeling, persistence, and API design.
+
+## Future Improvements
 - Product CRUD endpoints
-- Authentication & authorization
-- Order management
-- Payment integration (future)
+- User authentication & authorization
+- Shopping cart and order management
+- Frontend integration (React)
 
-## How to Run
-1. Clone repo
-2. Open solution in Visual Studio
-3. Run API project
+## Status
+In Progress – Actively being developed
